@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nexlet-git"
+version = "0.1.0"
+description = ""
+authors = ["Egor Boev <egorcoders@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nexlet_git"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
